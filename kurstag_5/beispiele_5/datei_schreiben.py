@@ -9,7 +9,7 @@
 # f.close()
 
 
-#In einer Datei Zeilen anhängen am Ende mit Mode=a+
+# In einer Datei Zeilen anhängen am Ende mit Mode=a+
 f = open("inhalt.txt", "a+")
 f.write("Herisau\n")
 f.write("Glarus\n")
