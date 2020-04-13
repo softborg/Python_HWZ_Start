@@ -3,8 +3,13 @@
 # leeres Dictionary
 mein_dict = {}  # ACHTUNG nicht verwechseln mit set()
 
-# Dictionry mit Werten gefüllt
+# Dictionary mit Werten gefüllt
 kantone = {'BS': 'Basel Stadt'}
+print(kantone)
+
+# 2.tes Dictionary mit Werten an 1.Dictionary anhängen
+kantone_2 = {'SO':"Solothurn", "ZG":"Zug"}
+kantone.update(kantone_2)
 print(kantone)
 
 # Element hinzufügen

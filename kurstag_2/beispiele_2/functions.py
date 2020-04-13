@@ -26,15 +26,15 @@ print('-' * 32)
 
 
 # Funktion mit lokalen Variablen
-def calc_CH(nettopreis):
-    mwst = 7.7  # lokale Variable
-    return nettopreis * (100 + mwst) / 100
+def calc_ch(nettopreis):
+    mwst_ch = 7.7  # lokale Variable
+    return nettopreis * (100 + mwst_ch) / 100
 
 
 preis = 100
 mwst = 19  # globale Variable
 
-bruttopreis = calc_CH(preis)
+bruttopreis = calc_ch(preis)
 
 #
 print(bruttopreis)
@@ -60,9 +60,23 @@ print('-' * 32)
 
 # mit einem * kann einer beliebigen Anzahl Parameter übergeben werden (wird als 'tuple' übernommen')
 def ciao(*names):
-
     for name in names:
         print(" Auf Wiedersehen", name)
 
 
 ciao("Robert", "Peter", "Pierre", "Piero")
+
+print('-' * 32)
+
+
+# leere Parameter erlauben mit None
+# (Parameter mit None müssen am Ende sein
+def converter(amount, currency, target_currency=None):
+    if target_currency is None:
+        print("Umrechnung ins Dollar")
+    else:
+        print("Umrechnung in Zielwährung:", target_currency)
+
+
+converter(100, "EUR")
+converter(100, "EUR", "CHF")

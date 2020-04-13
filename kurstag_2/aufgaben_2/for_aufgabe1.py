@@ -1,7 +1,7 @@
 # for Aufgabe 01
 """
 Erstellen sie folgenden Output.
-Natürlich nicht zeicnen :-)
+Natürlich nicht zeichnen :-)
 -------------------------
 | Zahl | Quadrat| Potenz|
 -------------------------
