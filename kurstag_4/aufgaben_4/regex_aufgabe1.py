@@ -1,3 +1,4 @@
+# r
 # Extrahieren sie alle Namen und Alter aus dem Text, speichern und geben es als Dictonary aus.
 # Nutzen sie dazu Regex und Dictonary
 
