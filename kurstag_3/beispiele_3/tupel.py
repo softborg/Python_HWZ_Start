@@ -24,3 +24,11 @@ meine_liste = list(mein_tuple)
 meine_liste[0] = 'Stans'
 mein_tuple = tuple(meine_liste)
 print(mein_tuple)
+
+angestelte = [("Peter","Müller"), ("Max", "Muster"), ("Enzo", "Ferrari")]
+for ma in angestelte:
+    vorname, nachname = ma  # vereinfachte Schreibweise ma besteht aus 2 Elementen
+    # vorname = ma[0]
+    # nachname = ma[1]
+
+    print("Vorname:", vorname, "Nachname:",nachname)

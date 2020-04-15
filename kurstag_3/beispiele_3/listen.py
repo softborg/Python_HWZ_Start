@@ -19,9 +19,8 @@ print(leere_liste)
 
 print("Der 1.Element =", leere_liste[0])
 
-
 # len - builtin --> Wieviele Elemente hat die Liste
-print("Anzahle Elemente =",len(leere_liste))
+print("Anzahle Elemente =", len(leere_liste))
 
 # löschen eines Elementes
 del (leere_liste[0])
@@ -40,5 +39,19 @@ print(leere_liste)
 # reverse() - dreht die Liste von hinten nach vorn um
 # copy() - erstellt eine Kopie einer Liste
 
+# slicing - Liste zuschneiden
 
+zahlen = [0,  1,  2,  3,  4,  5,  6,  7,  8,  9]
+# index   0,  1,  2,  3,  4,  5,  6,  7,  8,  9
+#        -10,-9, -8, -7, -6, -5, -4, -3, -2, -1
 
+# liste[start:ende:schritt]
+
+print(zahlen)  # alle Elemente
+print(zahlen[-10])  # entspricht zahlen[0]
+print(zahlen[0:6])  # alle Elemente von index 0 bis exklusive 6 (also 5)
+print(zahlen[3:])  # alle Elemente von index 3 bis Ende
+print(zahlen[:6:2]) # alle Elemente von 0 bis 6(exlusive) in 2er Schritten
+print(zahlen[-7:-3]) # alle Elemente von -7 bis -3(exlusive)
+print(zahlen[3:-1]) # alle Elemente von 3 bis -1(exlusive)
+print(zahlen[::2]) # alle Elemente von Start bis Ende in 2er Schritten
