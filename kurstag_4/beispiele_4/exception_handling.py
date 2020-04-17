@@ -7,7 +7,9 @@
 resulat = 0
 try:
     resulat = 3 / 0
-except ArithmeticError:
-    print("ArithmeticError", resulat)
+except ZeroDivisionError as e:
+    print("ZeroDivisionError", e, resulat)
+else:
+    print("Die Division war erfolgreich")
 finally:
-    print(" Abschluss Arbeiten", resulat)
+    print("Abschluss Arbeiten", resulat)
