@@ -64,7 +64,7 @@ def ciao(*names):
         print(" Auf Wiedersehen", name)
 
 
-ciao("Robert", "Peter", "Pierre", "Piero")
+ciao("Robert", "Peter", "Pierre", "Piero", "Max")
 
 print('-' * 32)
 

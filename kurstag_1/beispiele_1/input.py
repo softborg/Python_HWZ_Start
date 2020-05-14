@@ -15,6 +15,7 @@ print("Wie gross sind sie in cm ?")
 groesse = int(input())
 print(groesse)
 # Ausgaben: Sind
-print("Sind sind {groesse} Meter gross".format(groesse=groesse/100))
+print("Sie sind ", groesse/100, " Meter gross")
+#print("Sie sind {groesse} Meter gross".format(groesse=groesse/100))
 
 

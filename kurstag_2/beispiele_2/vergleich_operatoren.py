@@ -2,7 +2,7 @@
 
 x = 5
 y = 6
-print("a = {}, b = {}".format(x,y), end='\n\n')
+print("a = {}, b = {}".format(x, y), end='\n\n')
 
 # a grösser als b ---> Augabe: a > b ist False
 print('a > b  ist', x > y)
