@@ -47,12 +47,12 @@ Weintrauben:	70 kcal
 # Tupel Aufgabe 01 - Lösung
 
 fruits = [
-          ("Ananas", 50, "100 g"),
-          ("Banane", 89, "100 g"),
-          ("Birne", 57, "100 g"),
-          ("Zitrone", 35, "100 g"),
-          ("Kiwi", 51, "100 g"),
-          ("Feige", 61, "100 g")  ]
+    ("Ananas", 50, "100 g"),
+    ("Banane", 89, "100 g"),
+    ("Birne", 57, "100 g"),
+    ("Zitrone", 35, "100 g"),
+    ("Kiwi", 51, "100 g"),
+    ("Feige", 61, "100 g")]
 
 fruits = sorted(fruits)
 # fruits = sorted(fruits, key=lambda x:x[1])
