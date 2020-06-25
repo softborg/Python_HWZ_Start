@@ -2,12 +2,15 @@
 # beispiel.py ist ein Modul und das Modul heisst: beispiel
 
 # mittels import kann ich das Module beispiel genutzt werden
+# Standart Modul # laut PEP immer am Anfang des Files stehen.
+
+import math
+
 from kurstag_4.beispiele_4 import beispiel
 
 print(beispiel.addieren(2, 3))
 
-# Standart Modul # laut PEP immer am Anfang des Files stehen.
-import math
+
 
 print(math.pi)
 
