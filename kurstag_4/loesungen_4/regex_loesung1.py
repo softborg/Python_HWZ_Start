@@ -5,7 +5,11 @@ import re
 
 text = '''Max ist 42, seine Petra ist 40, Peter ist 12, bzw. Maria ist 10. '''
 
+# Regel 1: 1.Position muss ein Grossbuchstabe sein
+# Regel 2: anschliessend dürfen beliebig viele Buchstaben folgen (0-n)
 names = re.findall(r'[A-Z][a-z]*', text)
+
+# Regel 1: finde alle Zahlen die 1 - oder 2stellig sind
 alter = re.findall(r'\d{1,2}', text)
 
 # print(names)
