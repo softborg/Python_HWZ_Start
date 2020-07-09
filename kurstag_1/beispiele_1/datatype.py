@@ -4,4 +4,3 @@ f = 37.0  # f ist ein float ---> Gleitkommazahl
 j = 2 + 3j  # complex --> Komplexe Zahl
 
 text = 'Ein Text'  # text ist ein String --> Text
-

@@ -13,3 +13,4 @@ else:
     print("Die Division war erfolgreich")
 finally:
     print("Abschluss Arbeiten", resulat)
+
