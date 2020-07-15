@@ -2,6 +2,7 @@
 
 # Programmier - Aufgabe 2
 # Input: ein String mit 'Worten'
+# Bedingungen: Der String ist korrekt, wenn der String aus 3 oder mehr Worten besteht. Zahlen sind keine Worte.
 # Output: Die Ausgabe ist ein Boolean
 # Vorbedingungen: Die Eingabe enthält Worte oder Zahlen. Es gibt keine Worte die aus Zahlen und Buchstaben bestehen
 # 0 < len(words) < 100

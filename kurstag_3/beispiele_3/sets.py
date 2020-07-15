@@ -16,7 +16,7 @@ for k in kantone:
     print("Der Kanton {}.".format(k))
 
 # Mehrere Elemente gleichzeitig anhängen
-kantone.update('GL', 'GE', 'LU', 'FR')
+kantone.update({'GL', 'GE', 'LU', 'FR'})
 print("2:", kantone)
 
 

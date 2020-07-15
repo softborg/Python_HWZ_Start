@@ -1,5 +1,7 @@
 # coding=utf8
 # Programmier - Aufgabe 1 - Lösung
+
+
 def calc_list(array):
     """
         Summiere die geraden Elemente (0,2, etc.) und multipliziere die erhalten Summe mit dem letzten Element.
