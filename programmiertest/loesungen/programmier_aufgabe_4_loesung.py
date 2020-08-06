@@ -18,20 +18,20 @@ def sonnenstand(time):
     if 5 < stunden < 19:
         if stunden == 18 and minuten != 0:
             return "Keine Sonne!"
-        if minuten == 0:
-            return (stunden - 6) * 15
-        else:
-            return (stunden - 6) * 15 + 15 / 60 * minuten
+#        if minuten == 0:
+#            return (stunden - 6) * 15
+#        else:
+        return (stunden - 6) * 15 + (15 / 60 * minuten)
     else:
         return "Keine Sonne!"
 
 
 if __name__ == '__main__':
     print("Sonnenstand:")
-    print(sonnenstand("07:00"))
+    print(sonnenstand("09:00"))
 
     # Diese "asserts" helfen für die Selbstkontrolle, sind alle Asssert Ok - dann funktioniert ihr Prorgramm
-    assert sonnenstand("07:00") == 15
+    assert sonnenstand("09:00") == 45
     assert sonnenstand("12:15") == 93.75
     assert sonnenstand("15:45") == 146.25
     assert sonnenstand("18:01") == "Keine Sonne!"
