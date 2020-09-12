@@ -9,11 +9,15 @@ class Mobile:
 
 class Car(Mobile):
 
+    def __init__(self, gear=1):
+        self.__gear = gear
+
     def drive(self):
         print("ich fahre auf der Strasse")
 
     def set_gear(self, gear):
-        print("Gang ", gear, "eingelegt")
+        self.__gear = gear
+        print("Gang ", self.__gear, "eingelegt")
 
 
 class Ship(Mobile):

@@ -7,7 +7,8 @@ class Person:
     def vorname(self):
         return self.__vorname
 
-    def set_vorname(self, vorname):
+    @vorname.setter
+    def vorname(self, vorname):
         self.__vorname = vorname
 
     @property
@@ -21,6 +22,6 @@ class Kunde(Person):
 
 kunde = Kunde("Max", "Berger")
 print(kunde.vorname)
-kunde.set_vorname("Stefan")
+kunde.vorname = "Stefan"
 
 print(kunde.ganzer_name)
