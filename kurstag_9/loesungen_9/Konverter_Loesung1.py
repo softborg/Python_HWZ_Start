@@ -25,12 +25,12 @@ class Celsius:
             raise ValueError("Temperaturen kälter als -273 sind unmöglich")
         self._celsius = temp
 
-    property(get_celsius, set_celsius)
+    celsius = property(get_celsius, set_celsius)
 
 
 c = Celsius(0)
 print(c.to_fahrenheit())
 
-c.celsius = 20
+c.celsius = -28
 print(c.to_fahrenheit())
 print(c.celsius)
