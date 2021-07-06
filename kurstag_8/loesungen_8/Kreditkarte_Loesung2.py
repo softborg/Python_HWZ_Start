@@ -16,7 +16,7 @@ class Kreditkarte:
 
 
 class Visa(Kreditkarte):
-    def __init__(self,kartennr):
+    def __init__(self, kartennr):
         self.kartennr = kartennr + "-1944"
 
 
@@ -31,7 +31,6 @@ print(visa.kartennr)
 
 mastercard = Mastercard("77770999")
 print(mastercard.kartennr)
-
 
 kreditkarte = Kreditkarte("1239")
 print(kreditkarte.kartennr)

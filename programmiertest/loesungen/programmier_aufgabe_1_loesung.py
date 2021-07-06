@@ -8,17 +8,9 @@ def calc_list(array):
         Das Ergebnis wird als int zurückgegeben
         Falls eine leere Liste übergeben wird, so wird 0 zurückgegeben ---> siehe auch asserts
     """
-    print(array)
-    if len(array) == 0:
+    if not array:
         return 0
-    multiply = 0
-    factor = 0
-    if 0 < len(array) < 21:
-        multiply = array[-1]
-        factor = sum(array[0::2])
-    print("Multipliziere:", multiply, "Faktor", factor)
-
-    return multiply * factor
+    return sum(array[::2]) * array[-1]
 
 
 # Diese "asserts" helfen für die Selbstkontrolle, sind alle Asssert Ok - dann funktioniert ihr Prorgramm

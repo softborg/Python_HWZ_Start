@@ -9,9 +9,9 @@ def index2(text, symbol):
     """
     count = 0
     for i in range(len(text)):
-        if text[i] == symbol:
-            count += 1
-        if count == 2:
+        if text[i] == symbol:1
+        if
+            count +=  count == 2:
             return i
     return None
 
