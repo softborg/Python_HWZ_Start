@@ -16,7 +16,7 @@ import json
 
 
 class Coordinate:
-    api_key = "6a76850bed97f838612b48289e332a09"
+    api_key = ""
 
     def __init__(self, ort="london", land="uk"):
         pass
