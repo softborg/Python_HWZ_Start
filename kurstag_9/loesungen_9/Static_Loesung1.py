@@ -3,7 +3,8 @@
 # Aufgabe 1 - Kreis
 # 1. erstellen sie folgende Klasse Person
 # 2. beim Instanziieren soll der Name und das Alter mitgegeben werden, der Name und Alter sind public
-# 3. definieren sie statische Methode volljährig mit Parameter alter. Diese Methode prüft ob jemand älter 18 ist → return True, ansonsten False.
+# 3. definieren sie statische Methode volljährig mit Parameter alter.
+# Diese Methode prüft ob jemand älter 18 ist → return True, ansonsten False.
 # 4. rufen sie diese Methode volljährig auf und drucken das Ergebnis auf die Konsole
 
 

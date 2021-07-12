@@ -1,4 +1,8 @@
 class Mobile:
+    nord = "Norden"
+    east = "Osten"
+    south = "Süden"
+    ouest = "Westen"
 
     def drive(self):
         print("ich fahre")
@@ -22,8 +26,16 @@ class Car(Mobile):
 
 class Ship(Mobile):
 
+    def __init(self, way=Mobile.nord):
+        self.__way = way
+
     def drive(self):
         print("ich schwimme")
+
+    # def neue Methode nur in der Ship Klasse
+    def set_way(self, way):
+        self.__way = way
+        print("ich fahre nach", self.__way)
 
 
 fahrzeuge = [Car(), Ship(), Car(), Car()]
@@ -33,6 +45,10 @@ for fahrzeug in fahrzeuge:
 
     if isinstance(fahrzeug, Car):
         fahrzeug.set_gear(2)
+
+    # nur Ship Methode aufrufen
+    if isinstance(fahrzeug, Ship):
+        fahrzeug.set_way(Mobile.east)
 
 for fahrzeug in fahrzeuge:
     fahrzeug.brake()

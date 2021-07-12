@@ -7,10 +7,11 @@
 
 
 class Rechteck:
-    def __init__(self, breite, hoehe):
-        self.breite = breite
-        self.hoehe = hoehe
+    def __init__(self, b, h):
+        self.breite = b   # self.breite = Instanzvariable; breite = Parameter
+        self.hoehe = h
 
 
 r = Rechteck(200, 300)
 print("Rechteck hat die Breite {} und die Höhe {}".format(r.breite, r.hoehe))
+

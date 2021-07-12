@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 class Sichtschutz:
 
     def __init__(self, public, proteced, private):
@@ -14,4 +15,4 @@ s = Sichtschutz(name, lohn, pin)
 
 print(s.name)
 print(s.lohn)
-print(s.pin)  # --> führt zu Fehler, da Pin ausserhalb der eignen Klasse angesprochen wurde.
+print(s.pin)  # --> fÃ¼hrt zu Fehler, da Pin ausserhalb der eignen Klasse angesprochen wurde.

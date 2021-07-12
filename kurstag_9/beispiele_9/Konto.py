@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 class Konto(object):
     def __init__(self, kontostand):
         self._kontostand = kontostand
@@ -15,11 +16,11 @@ class Konto(object):
     def kontostand(self):
         return self._kontostand
 
-    # ältere Art einer Porperty
+    # Ã¤ltere Art einer Porperty
     def pin(self):
         return "Zugriff verboten"
 
-    # ältere Art einer Porperty
+    # Ã¤ltere Art einer Porperty
     pin = property(pin)
 
 

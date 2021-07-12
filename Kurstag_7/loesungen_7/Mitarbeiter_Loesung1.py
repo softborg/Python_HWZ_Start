@@ -16,4 +16,4 @@ class Mitarbeiter:
 
 
 m = Mitarbeiter("Stefan", 1000)
-print("Der Mitarbeiter heisst {} und sein Lohn ist {}".format(m.lohn, m.lohn))
+print("Der Mitarbeiter heisst {} und sein Lohn ist {}".format(m.name, m.lohn))

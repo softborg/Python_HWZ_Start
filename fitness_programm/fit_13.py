@@ -19,7 +19,7 @@ if __name__ == '__main__':
     print(is_all_upper('ALL UPPER'))
 
     # These "asserts" are used for self-checking and not for an auto-testing
-    assert is_all_upper('ALL UPPER') == True
+    assert is_all_upper('ALL UPPER') is True
     assert is_all_upper('all lower') == False
     assert is_all_upper('mixed UPPER and 666') == False
     assert is_all_upper('') == False

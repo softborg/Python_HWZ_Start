@@ -22,11 +22,11 @@ if __name__ == '__main__':
     print("Zahlen aufsteigend ?")
     print(is_ascending([-5, 10, 99, 123456]))
 
-    assert is_ascending([-5, 10, 99, 123456]) == True
-    assert is_ascending([99]) == True
-    assert is_ascending([4, 5, 6, 7, 3, 7, 9]) == False
-    assert is_ascending([]) == True
-    assert is_ascending([1, 1, 1, 1]) == False
-    assert is_ascending([-5, -6]) == False
+    assert is_ascending([-5, 10, 99, 123456]) is True
+    assert is_ascending([99]) is True
+    assert is_ascending([4, 5, 6, 7, 3, 7, 9]) is False
+    assert is_ascending([]) is True
+    assert is_ascending([1, 1, 1, 1]) is False
+    assert is_ascending([-5, -6]) is False
 
     print("Wenn alles korrekt ist, dann wird diese Zeile ausgegeben !")

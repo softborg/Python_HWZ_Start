@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 class Switch:
     def __init__(self):
         self.state = False
@@ -22,4 +23,4 @@ s3 = s1
 print(s3)
 
 s1.on()
-print(s3.is_on())
+print(s3.is_on()) # Was ist die Ausgabe ? --> Vermutung ist: True

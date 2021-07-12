@@ -22,3 +22,7 @@ buch = Buch("Python 3, Einsteigen und Durchstarten", 30)
 buch.bemerkung = "Jetzt ist alles klar"
 
 print(buch.titel, buch.preis, buch.bemerkung)
+
+
+buch2 = Buch("Python 3, Einsteigen und Durchstarten", 30)
+print(buch2.titel, buch2.preis, buch2.bemerkung)

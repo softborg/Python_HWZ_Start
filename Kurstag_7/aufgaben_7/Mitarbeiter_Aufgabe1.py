@@ -7,3 +7,6 @@
 # 3. Lege eine Instanz Mitarbeiter an
 # 4. Gib den Namen und den Lohn aus ? Was stellen sie fest ?
 # 5. Was muss korrigiert werden - siehe Mitarbeiter_Aufgabe 2
+
+
+
