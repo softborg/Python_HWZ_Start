@@ -3,7 +3,11 @@
 
 
 def nur_worte_rueckwaerts(text: str) -> str:
-    pass
+    split_text = text.split(' ')  # mit split den Text in eine Liste umwandeln
+    reversed_text = ' '.join(reversed(split_text))  # Drehen Reihenfolge der Wörter und wieder in einen String umwandeln
+    return reversed_text[::-1] # dreht den text erneut um
+
+    #return ' '.join(word[::-1] for word in text.split(" "))
 
 
 if __name__ == '__main__':

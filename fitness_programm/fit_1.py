@@ -10,6 +10,7 @@ def fill_list(array):
         Das Programm soll die Summe und Mittelwert (Summe/Anzahl der Elemnte) als Tuple zurückgeben
     """
     n1 = [5 * (i+1) for i in range(10)]
+    print("resultat", sum(n1), sum(n1)/len(n1))
     return sum(n1), sum(n1)/len(n1)
 
 
