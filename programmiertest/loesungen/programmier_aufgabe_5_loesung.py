@@ -21,7 +21,7 @@ class Coordinate:
         self.ort = data["name"]
         self.land = data["sys"]["country"]
         self.__breitengrad = data["coord"]["lat"]
-        self.__laengengrad = round(data["coord"]["lon"])
+        self.__laengengrad = data["coord"]["lon"]
 
     def get_place(self, ort="london", land="uk"):
         self.ort = ort

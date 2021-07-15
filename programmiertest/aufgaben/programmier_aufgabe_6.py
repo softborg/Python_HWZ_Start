@@ -10,7 +10,7 @@ Keine Veränderung am bestehenden Code, nur Ergänzungen
 
 class Document:
     def show(self):
-        raise NotImplementedError("is not implemented yet xxx")
+        print("is not implemented yet xxx")
 
 
 class ODFDocument(Document):
@@ -27,7 +27,7 @@ class MSOfficeDocument(Document):
 
 class Application:
     def create_document(self, type_):
-        raise NotImplementedError()
+        print("existiert nicht")
 
 
 class MyApplication(Application):
@@ -42,13 +42,9 @@ class MyApplication(Application):
 
 # Diese "asserts" helfen für die Selbstkontrolle, sind alle Asssert Ok - dann funktioniert ihr Prorgramm
 if __name__ == '__main__':
-
-    try:
-        app = MyApplication()
-        assert app.create_document('odf').show() == "odf", "korrekt odf Anzeige "
-        assert app.create_document('doc').show() == "doc", "korrekte doc Anzeige "
-        assert app.create_document('pdf').show() == "pdf", "korrekt pdf Anzeige "
-    except Exception as e:
-        raise e
+    app = MyApplication()
+    assert app.create_document('odf').show() == "odf", "korrekte odf Anzeige "
+    assert app.create_document('doc').show() == "doc", "korrekte doc Anzeige "
+    assert app.create_document('pdf').show() == "pdf", "korrekte pdf Anzeige "
 
     print("Wenn alles korrekt ist, dann wird diese Zeile ausgegeben !")
